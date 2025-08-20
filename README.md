@@ -19,12 +19,12 @@ Toda la comunicación con este programa se hace a través de una API.
 
 Para interactuar con el programa, debes usar la siguiente dirección base en tus peticiones locales: `http://localhost:8080/api/v1/students`
 
-| Qué quieres hacer                     | Orden (Método y Endpoint) | Explicación                                                  |
-| :------------------------------------- | :------------------------ | :----------------------------------------------------------- |
-| **Ver la lista completa** | `GET`  `/`                | Pide la lista con la información de todos los estudiantes.     |
-| **Buscar un solo estudiante** | `GET`  `/{id}`            | Pide los datos de un estudiante usando su número de identificación. |
-| **Agregar un nuevo estudiante** | `POST` `/`                | Envía los datos de un estudiante nuevo para guardarlo en la lista. |
-| **Eliminar un estudiante** | `DELETE` `/{id}`          | Da la orden de borrar a un estudiante usando su número de identificación. |
+| Qué quieres hacer                      | Orden (Método y Endpoint) | Explicación                                                               |
+| :------------------------------------- | :------------------------ | :-------------------------------------------------------------------------|
+| **Ver la lista completa**              | `GET`  `/`                | Pide la lista con la información de todos los estudiantes.                |
+| **Buscar un solo estudiante**          | `GET`  `/{id}`            | Pide los datos de un estudiante usando su número de identificación.       |
+| **Agregar un nuevo estudiante**        | `POST` `/`                | Envía los datos de un estudiante nuevo para guardarlo en la lista.        |
+| **Eliminar un estudiante**             | `DELETE` `/{id}`          | Da la orden de borrar a un estudiante usando su número de identificación. |
 
 ---
 
