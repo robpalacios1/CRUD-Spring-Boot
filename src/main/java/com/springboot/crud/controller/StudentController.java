@@ -1,6 +1,7 @@
 package com.springboot.crud.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -23,6 +24,11 @@ public class StudentController {
   @GetMapping
   public List<Student> getAll() {
     return studentService.getStudents();
+  }
+
+  @GetMapping("/{studentId}")
+  public Optional<Student> getById(@PathVariable("studentId") Long studentId) {
+    return studentService.getStudent(studentId);
   }
 
   @PostMapping
