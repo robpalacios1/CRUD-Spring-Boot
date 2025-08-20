@@ -48,7 +48,7 @@ Postman es una aplicación que nos permite "hablar" con nuestro programa. Así e
 
 * Respuesta del programa: Te devolverá los mismos datos, pero ahora con un número de identificación (studentId).
 
-```
+```json
 {
     "studentId": 1,
     "firstName": "Julian",
@@ -62,7 +62,7 @@ Postman es una aplicación que nos permite "hablar" con nuestro programa. Así e
 * **Dirección:**: `http://localhost:8080/api/v1/students`
 * **Respuesta del programa**: Te mostrará una lista con todos los estudiantes que has guardado.
 
-```
+```json
 [
     {
         "studentId": 1,
@@ -84,7 +84,7 @@ Postman es una aplicación que nos permite "hablar" con nuestro programa. Así e
 * **Dirección**: `http://localhost:8080/api/v1/students/1` (el 1 es el ID del estudiante que buscas).
 * **Respuesta del programa**: Te dará la información únicamente del estudiante con ese ID.
 
-```
+```json
 {
     "studentId": 1,
     "firstName": "Julian",
