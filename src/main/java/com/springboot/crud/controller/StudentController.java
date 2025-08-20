@@ -32,8 +32,9 @@ public class StudentController {
   }
 
   @PostMapping
-  public void saveUpdate(@RequestBody Student student) {
+  public Student saveUpdate(@RequestBody Student student) {
     studentService.saveOrUpdate(student);
+    return(student);
   }
 
   @DeleteMapping("/{studentId}")
