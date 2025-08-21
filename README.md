@@ -1,6 +1,6 @@
 # CRUD API de Estudiantes con Spring Boot
 
-Imagina que tienes una libreta de contactos digital solo para estudiantes. Este proyecto es exactamente eso. Es un programa que te permite **agregar**, **ver**, **buscar** y **eliminar** la información de los estudiantes de una lista.
+Este proyecto es un programa que te permite **agregar**, **ver**, **buscar** y **eliminar** la información de los estudiantes de una lista.
 
 Toda la comunicación con este programa se hace a través de una API.
 
