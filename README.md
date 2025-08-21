@@ -17,7 +17,7 @@ Toda la comunicación con este programa se hace a través de una API.
 
 ## 🔌 Las Órdenes que Entiende el Programa
 
-Para interactuar con el programa, debes usar la siguiente dirección base en tus peticiones locales: `http://localhost:8080/api/v1/students`
+Para interactuar, debes usar la siguiente dirección base en tus peticiones locales: `http://localhost:8080/api/v1/students`
 
 | Qué quieres hacer                      | Orden (Método y Endpoint) | Explicación                                                               |
 | :------------------------------------- | :------------------------ | :-------------------------------------------------------------------------|
