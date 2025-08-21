@@ -1,8 +1,8 @@
 # CRUD API de Estudiantes con Spring Boot
 
-Este proyecto es un programa que te permite **agregar**, **ver**, **buscar** y **eliminar** la información de los estudiantes de una lista.
+Este proyecto te permite **agregar**, **ver**, **buscar** y **eliminar** la información de los estudiantes de una lista.
 
-Toda la comunicación con este programa se hace a través de una API.
+Toda la comunicación se hace a través de una API.
 
 ## ✨ Herramientas Utilizadas
 
